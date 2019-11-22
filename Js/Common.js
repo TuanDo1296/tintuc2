@@ -83,7 +83,7 @@ $(document).ready(function() {
 });
 
 $(document).ready(function () {
-    $("header .header-bottom nav").prepend("<a href='javascript:void(0)' class='header__icon' id='header__icon'><span></span></a>");
+    $(".header-nav .box-right").prepend("<a href='javascript:void(0)' class='header__icon' id='header__icon'><span></span></a>");
     $(".product-detail .size .item").click(function() {
         $(".product-detail .size .item").removeClass("active");
         $(this).addClass("active");
